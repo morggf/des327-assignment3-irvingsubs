@@ -1,15 +1,7 @@
-/* 
-
-=== FoodGo Lab ===
-
-Do not delete existing CSS
-
-*/
-
 /* == Typography == */
 
 body {
-    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Futura', 'Arial', sans-serif;
     font-size: 1rem;
     line-height: 1.29rem;
 }
@@ -20,12 +12,12 @@ h2 {
 
 header,
 footer {
-    color: #b56441;
+    color: white;
 }
 
 a {
     text-decoration: none;
-    color: #b56441;
+    color: white;
     font-size: 1rem;
 }
 
@@ -39,11 +31,11 @@ a {
 }
 
 #nav a {
-    display: block;
-    background-color: orange;
     margin-right: 10px;
     text-align: center;
-    padding: 0.5rem
+    padding: 0.5rem;
+    color: white;
+    font-size: 1.5rem;
 }
 
 #nav a:hover {
@@ -88,7 +80,10 @@ main {
 }
 
 #splash {
-    background-image: url(splash-backing.jpg);
+    background-image: url(main_page_sub.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
 }
 
 /* == Box Model == */
@@ -140,7 +135,7 @@ footer {
 header,
 footer {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 33% 33% 33%;
 }
 
 main {
@@ -179,6 +174,7 @@ main {
 
 #social-media {
     text-align: right;
+    float: right;
 }
 
 #app {
