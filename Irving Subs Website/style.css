@@ -22,9 +22,12 @@ a {
     font-size: 1rem;
 }
 
-#legal {
-    font-size: 0.71rem;
-    font-style: italic;
+#footertext {
+    align-content: center;
+    font-family: 'Futura', 'Arial', sans-serif;
+    font-size: 1rem;
+    line-height: 1.29rem;
+    text-align: center;
 }
 
 #logo {
@@ -40,7 +43,8 @@ a {
 }
 
 #nav a:hover {
-    color: #7d4700;
+    color: #ce764a;
+    transition: 0.5s;
 }
 
 #splash {
@@ -52,9 +56,13 @@ a {
 }
 
 footer {
-    font-style: italic;
     align-content: center;
     
+}
+
+address {
+    text-decoration: underline;
+    font-style: normal;
 }
 
 /* Font Awesome icons */
@@ -64,7 +72,8 @@ footer {
 }
 
 .fab:hover {
-    color: ;
+    color: #ce764a;    
+    transition: 0.5s;
 }
 
 button {}
@@ -131,13 +140,23 @@ footer {
 }
 
 /* === Layout  === */
+/* this isnt working
+header {
+    box-shadow: 25px 25px 25px rgba(0,0,0,0.5);
+}*/
 
+.info {
+    float:
+}
 
 /* = Grid =*/
-header,
-footer {
+header {
     display: grid;
     grid-template-columns: 33% 33% 33%;
+}
+
+footer {
+    display: grid;
 }
 
 main {
@@ -153,6 +172,13 @@ main {
 #splash {
     grid-column-start: 1;
     grid-column-end: 4;
+}
+
+.info {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    padding: 15px
 }
 
 /* = Flexbox = */
@@ -181,4 +207,63 @@ main {
 
 #app {
     text-align: center;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #4fbfa3;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    font-size: 15pt;
+    border-radius: 15px;
+    width: 250px;
+    height: 60px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    font-family: 'Futura', 'Arial', sans-serif;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    cursor: pointer;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #099e74;
+    transition: 0.5s;
 }
