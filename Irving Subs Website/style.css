@@ -87,6 +87,9 @@ footer {
 }
 
 /* == Background == */
+header {
+    background-color: #4fbfa3;
+}
 
 
 body {
@@ -281,4 +284,12 @@ main {
 .dropdown:hover .dropbtn {
     background-color: #099e74;
     transition: 0.5s;
+}
+
+/* Header fixed */
+header {
+ position: fixed;
+ top: 0px;
+ left: 0px;
+ width: 100%;
 }
