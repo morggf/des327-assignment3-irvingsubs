@@ -36,6 +36,10 @@ a {
     
 }
 
+.catering {
+    line-height: 45px;
+}
+
 #nav a {
     margin-right: 10px;
     text-align: center;
@@ -61,6 +65,12 @@ a {
     font-family: 'Futura', 'Arial', sans-serif;
     font-size: 1.2rem;
     line-height: 1.29rem;
+}
+
+.donation {
+    font-size: 25px;
+    color: orangered;
+    text-decoration: underline
 }
 
 footer {
@@ -98,6 +108,10 @@ body {
 
 main {
     background-color: #ffd968;
+}
+
+.mainalt{
+    background-color: #fff;
 }
 
 #splash {
@@ -150,10 +164,10 @@ footer {
 }
 
 /* === Layout  === */
-/* this isnt working
+
 header {
-    box-shadow: 25px 25px 25px rgba(0,0,0,0.5);
-}*/
+    box-shadow: 0px 13px 45px rgba(0,0,0,0.5);
+}
 
 .info {
     margin-bottom: 50px;
@@ -257,7 +271,7 @@ main {
     background-color: #fff;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 10;
 }
 
 /* Links inside the dropdown */
@@ -288,8 +302,13 @@ main {
 
 /* Header fixed */
 header {
- position: fixed;
- top: 0px;
- left: 0px;
- width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.headerspace {
+    height: 142px
 }
