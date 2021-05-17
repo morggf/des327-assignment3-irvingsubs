@@ -1,3 +1,5 @@
+/* == REM calculations based on root of 16px ==*/
+
 /* == Typography == */
 
 body {
@@ -27,21 +29,21 @@ a {
     font-size: 1.2rem;
     line-height: 1.29rem;
     text-align: center;
-    margin: 50px;
+    margin: 3.125rem;
 }
 
 #logo {
     text-align: center;
-    width: 150px
+    width: 9.375rem;
     
 }
 
 .catering {
-    line-height: 45px;
+    line-height: 2.813rem;
 }
 
 #nav a {
-    margin-right: 10px;
+    margin-right: 0.625rem;
     text-align: center;
     padding: 0.5rem;
     color: white;
@@ -68,7 +70,7 @@ a {
 }
 
 .donation {
-    font-size: 25px;
+    font-size: 1.563rem;
     color: orangered;
     text-decoration: underline
 }
@@ -166,19 +168,19 @@ footer {
 /* === Layout  === */
 
 header {
-    box-shadow: 0px 13px 45px rgba(0,0,0,0.5);
+    box-shadow: 0rem 0.813rem 2.813rem rgba(0,0,0,0.5);
 }
 
 .info {
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 
 nav {
-    margin-top: 35px;
+    margin-top: 2.188rem;
 }
 
 #nav {
-    margin-top: 35px;
+    margin-top: 2.188rem;
 }
 
 /* = Grid =*/
@@ -210,7 +212,7 @@ main {
     grid-column-start: 1;
     grid-column-end: 4;
     text-align: center;
-    padding: 15px
+    padding: 0.938rem;
 }
 
 /* = Flexbox = */
@@ -246,8 +248,8 @@ main {
 .dropbtn {
   background-color: #4fbfa3;
   color: white;
-  padding: 16px;
-  font-size: 16px;
+  padding: 1rem;
+  font-size: 1rem;
   border: none;
 }
 
@@ -258,10 +260,10 @@ main {
 }
 
 .dropbtn {
-    font-size: 15pt;
-    border-radius: 15px;
-    width: 250px;
-    height: 60px;
+    font-size: 1.25rem;
+    border-radius: 0.938rem;
+    width: 15.625rem;
+    height: 3.75rem;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -269,8 +271,8 @@ main {
     display: none;
     position: absolute;
     background-color: #fff;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 10rem;
+    box-shadow: 0rem 0.5rem 1rem 0rem rgba(0,0,0,0.2);
     z-index: 10;
 }
 
@@ -278,7 +280,7 @@ main {
 .dropdown-content a {
     font-family: 'Futura', 'Arial', sans-serif;
     color: black;
-    padding: 12px 16px;
+    padding: 0.75rem 1rem;
     text-decoration: none;
     display: block;
 }
@@ -303,12 +305,12 @@ main {
 /* Header fixed */
 header {
     position: fixed;
-    top: 0px;
-    left: 0px;
+    top: 0rem;
+    left: 0rem;
     width: 100%;
     z-index: 1;
 }
 
 .headerspace {
-    height: 142px
+    height: 8.875rem;
 }
