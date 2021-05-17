@@ -314,3 +314,35 @@ header {
 .headerspace {
     height: 8.875rem;
 }
+
+/* Location Pictures */
+
+#location2 {
+    display: block;
+    grid-template-columns: 50% 50%;
+}
+
+.locationimg {
+   grid-column-start:1;
+    grid-column-end:2;
+}
+
+#irving {
+    background-image:url(Irving%20Location.JPG);
+}
+
+#chinatown {
+    background-image: url(Chinatown%20Location.JPG);
+}
+
+#valencia {
+    background-image: url(Valencia%20Location.JPG);
+}
+
+.locationdescription {
+    grid-column-start:2;
+    grid-column-end:3;
+}
+
+
+
